@@ -528,7 +528,6 @@ Delete
 
     //finding old values
     let curWork = this.#workouts[this.#workout2[0]];
-    console.log(curWork.place);
 
     if (newType === 'running') {
       let newCadence = +editCadence.value;
@@ -703,4 +702,3 @@ Delete
 }
 
 const app = new App();
-console.log(app);
